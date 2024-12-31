@@ -1,0 +1,29 @@
+/* Base styles for the page */
+.menu-pricing-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 89.77vh; /* Full screen height */
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    background-color: #fff;
+    margin: 0;
+}
+
+/* Title styles */
+.menu-title {
+    font-size: 48px;
+    font-weight: bold;
+    font-family: "Merienda", cursive;
+    margin-bottom: 20px;
+    color: #623e27;
+    text-transform: uppercase;
+}
+
+/* Coming soon text styles */
+.coming-soon-text {
+    font-size: 20px;
+    color: #666;
+}

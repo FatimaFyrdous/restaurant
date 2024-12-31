@@ -1,0 +1,86 @@
+/* Base styles for the page */
+.contact-us-page {
+    height: 89.77vh; /* Full viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centers content vertically */
+    align-items: center; /* Centers content horizontally */
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    background-color: #fff;
+    text-align: center; /* Ensures all text is centered */
+}
+
+/* Title styles */
+.contact-us-title {
+    font-size: 48px;
+    font-weight: bold;
+    font-family: "Merienda", cursive;
+    color: #623e27;
+    margin-bottom: 20px;
+}
+
+/* Info section styles */
+.contact-info {
+    font-size: 20px;
+    line-height: 1.6;
+    font-family: 'Poppins', sans-serif;
+    color: #555;
+}
+
+.restaurant-name {
+    font-size: 32px;
+    font-weight: bold;
+    color: #c88c43;
+    margin-bottom: 10px;
+}
+
+.tagline-contact {
+    font-size: 18px;
+    font-style: italic;
+    color: #777;
+    margin-bottom: 15px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.452);
+}
+
+/* Email link styles */
+.contact-info a {
+    color: #623e27;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+/* Mobile Responsiveness */
+@media screen and (max-width: 768px) {
+    .contact-us-title {
+        font-size: 36px;
+    }
+
+    .contact-info {
+        font-size: 18px;
+    }
+
+    .restaurant-name {
+        font-size: 28px;
+    }
+}
+
+/* Small Mobile Responsiveness */
+@media screen and (max-width: 480px) {
+    .contact-us-title {
+        font-size: 28px;
+    }
+
+    .contact-info {
+        font-size: 16px;
+    }
+
+    .restaurant-name {
+        font-size: 24px;
+    }
+}

@@ -1,0 +1,52 @@
+.map-section {
+    width: 100%;
+    padding: 0;
+    background-color: #fff;
+  }
+  
+  .map-container {
+    position: relative;
+    width: 100%;
+    height: 450px;
+    border-radius: 0; /* Full-width map with no rounding */
+    overflow: hidden;
+  }
+  
+  .map-frame {
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+  
+  .directions-button-container {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 10;
+  }
+  
+  .directions-button {
+    margin-top: 100px;
+    background-color: #795548; /* Brown color for the button */
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .directions-button:hover {
+    background-color: #5d4037; /* Slightly darker brown on hover */
+  }
+  
+  .button-icon {
+    margin-right: 8px;
+  }
+  

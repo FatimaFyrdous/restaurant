@@ -1,0 +1,82 @@
+/* MOdalForm.css */
+
+.reserve-form {
+    background-color: #6b4e36; /* Dark background */
+    color: #ffffff; /* Bright text */
+    padding: 2rem;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .reserve-title {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #ffffff;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  label {
+    text-align: left;
+    font-size: 1rem;
+  }
+  
+  input {
+    padding: 0.7rem;
+    font-size: 1rem;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #ffffff;
+  }
+  
+  .modaltext input::placeholder {
+    color: rgb(255, 255, 255);
+  }
+  
+  /* input:focus {
+    outline: none;
+    border-color: #ffffff;
+  } */
+  
+  .submit-btn {
+    background-color: #ffffff;
+    color: #6b4e36;
+    border: none;
+    padding: 0.7rem 1.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .submit-btn:hover {
+    background-color: #ffffff;
+    color: #c88c43;
+    box-shadow: none;
+  }
+  
+  /* Custom close button styles */
+  .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    background: none;
+    border: none;
+    color: #ffffff; /* Matches the modal text color */
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  .close-btn:hover {
+    color: #c88c43; /* Bright color on hover */
+  }
+  

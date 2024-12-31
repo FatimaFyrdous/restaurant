@@ -1,0 +1,106 @@
+/* Base styling for navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.877); /* Lower opacity to 40% */; /* Lower opacity to 40% */
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+/* Logo styling */
+.navbar-logo a {
+    text-decoration: none;
+}
+
+.navbar-logo h1 {
+    font-family: "Merienda", cursive;
+    font-size: 24px;
+    font-weight: bold;
+    color: #6b4e36;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+}
+
+/* Menu styling */
+.navbar-menu {
+    font-family: "Poppins", sans-serif;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+    padding-right: 100px;
+}
+
+.navbar-menu li {
+    list-style: none;
+}
+
+.navbar-menu li a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+/* Hover effect for menu links */
+.navbar-menu li a:hover {
+    color: #c88c43;
+}
+
+/* Active link styling for NavLink */
+.active-link {
+    color: #c88c43 !important; /* Force the color to override any conflicting styles */
+    font-weight: bolder; /* Bold for active link */
+    font-size: large;
+}
+
+/* Contact styling */
+.navbar-contact {
+    padding-right: 20px;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+}
+
+.navbar-contact a {
+    text-decoration: none; /* Remove underline */
+    color: #333; /* Set color to match the rest of the navbar */
+}
+
+/* Responsive styling */
+@media screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 15px;
+    }
+
+    .navbar-menu {
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .navbar-menu li {
+        width: 100%;
+    }
+
+    .navbar-menu li a {
+        display: block;
+        width: 100%;
+    }
+
+    .navbar-contact {
+        margin-top: 10px;
+    }
+}

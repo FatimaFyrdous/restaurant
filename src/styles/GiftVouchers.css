@@ -1,0 +1,39 @@
+.gift-vouchers-section {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+  }
+  
+  .gift-vouchers-content {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    max-width: 1200px;
+    width: 90%;
+  }
+  
+  .gift-vouchers-image {
+    flex: 1;
+    max-width: 50%;
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow effect */
+  }
+  
+  .gift-vouchers-text {
+    flex: 1;
+    text-align: left;
+    font-family:"Poppins", sans-serif;
+    margin-top: 200px;
+  }
+  
+  .gift-vouchers-text h2 {
+    font-size: 2.5rem; /* Large, bold heading */
+    font-weight: 500;
+  }
+  
+  .gift-vouchers-text p {
+    font-size: 1.2rem; /* Slightly larger paragraph text */
+    color: #444;
+  }
+  

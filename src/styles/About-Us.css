@@ -1,0 +1,88 @@
+/* Base styling for the About Us page */
+.about-page {
+    margin-top: 50px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+.about-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Title styles */
+.about-title {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #623e27;
+    font-family: "Merienda", cursive;
+}
+
+.section-title {
+    font-size: 24px;
+    margin-top: 20px;
+    color: #c88c43;
+}
+
+/* List styling */
+.about-list {
+    list-style: disc;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.about-list li {
+    margin-bottom: 10px;
+}
+
+/* Links */
+.about-container a {
+    color: #c88c43;
+    text-decoration: none;
+}
+
+.about-container a:hover {
+    text-decoration: underline;
+}
+
+/* Steps section */
+.steps-section {
+    margin-top: 40px;
+}
+
+.steps-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.step-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.step-icon {
+    width: 50px;
+    height: 50px;
+}
+
+.step-title {
+    font-size: 18px;
+    color: #623e27;
+    margin: 0;
+}
+
+.step-description {
+    font-size: 16px;
+    color: #555;
+    margin: 5px 0 0;
+}

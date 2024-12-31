@@ -1,0 +1,81 @@
+.visit-us-section {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .visit-us-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .visit-us-form {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+  }
+  
+  .visit-us-form label {
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .visit-us-form input,
+  .visit-us-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-top: 5px;
+  }
+  
+  .visit-us-form textarea {
+    min-height: 100px;
+  }
+  
+  .visit-us-submit {
+    padding: 10px;
+    font-size: 1rem;
+    color: white;
+    background-color: #6b4e36; /* Matching brown */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .visit-us-submit:hover {
+    background-color: #8b4513;
+  }
+  
+  .visit-us-info {
+    flex: 1;
+    text-align: left;
+    font-size: 1rem;
+    line-height: 1.8;
+    margin-top: 50px;
+  }
+  
+  .visit-us-info h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .visit-us-info p {
+    margin: 5px 0;
+    color: #555;
+  }
+  
+  .recaptcha-note {
+    font-size: 0.9rem;
+    color: #888;
+    margin-top: 20px;
+  }
+  
