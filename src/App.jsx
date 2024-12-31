@@ -4,7 +4,7 @@ import Home from './components/Home.jsx';
 import MenuAndPricing from './components/MenuAndPricing.jsx';
 import OpeningHours from './components/OpeningHours.jsx';
 import About from './components/AboutUs.jsx';
-import Contact from './components/ContactUS.jsx';
+import Contact from './components/ContactUs.jsx';
 
 import FooterEnd from './components/Footer.jsx';
 import Navigation from './components/NavBar.jsx';
